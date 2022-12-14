@@ -4,7 +4,7 @@ const {
   getAllNotesHandler,
   getNoteByIdHandler,
   editNoteByIdHandler,
-  deleteNoteByIdHandler
+  deleteNoteByIdHandler,
 } = require('./handler');
 
 // http://notesapp-v1.dicodingacademy.com
