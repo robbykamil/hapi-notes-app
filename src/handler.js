@@ -119,7 +119,7 @@ const deleteNoteByIdHandler = (req, h) => {
 
   const response = h.response({
     status: 'fail',
-    message: 'Note can not to delete',
+    message: 'Note is not found',
   });
   response.code(404);
   return response;
